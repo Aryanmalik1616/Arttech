@@ -1266,20 +1266,20 @@ body{
         display: flex;
         height: 60vw;
         text-align: center;
-        width: 60vw;
+        width: 100%;
     }
 
     .b14{
         display: flex;
         height: 60vw;
-        width: 60vw;
+        width: 100%;
         text-align: center;
     }
 
     .b15{
         display: flex;
         height: 60vw;
-        width: 60vw;
+        width: 100%;
         text-align: center;
     }
 
@@ -1305,6 +1305,15 @@ body{
         transition: .2s ease-in-out;
     }
     
+    .card h2{
+        font-size: medium;
+    }
+
+    .card p{
+        font-size: 2vw;
+        text-align: center;
+        margin: 0 4vw;
+    }
     .card:hover {
         box-shadow: 0vw 0vw 2vw aqua, 0 0 2vw aqua, 0 0 2vw aqua;
     }
@@ -1316,8 +1325,8 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         /* position: absolute; */
-        height: 11vw;
-        width: 20vw;
+        height: 30vw;
+        width: 50vw;
         margin-bottom: 1vw;
     }
     
@@ -1328,8 +1337,8 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         /* position: absolute; */
-        height: 11vw;
-        width: 20vw;
+        height: 30vw;
+        width: 50vw;
         margin-bottom: 1vw;
     }
     
@@ -1340,8 +1349,8 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         /* position: absolute; */
-        height: 11vw;
-        width: 20vw;
+        height: 30vw;
+        width: 50vw;
         margin-bottom: 1vw;
     }
     
