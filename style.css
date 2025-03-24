@@ -768,13 +768,13 @@ body{
         align-items: start;
     }
 
-    /* .border{
+    .border{
         border: 1px solid black;
-    } */
+    }
     
     .first {
         padding: 0.5rem;
-        height: 70vw;
+        height: 100vw;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -786,7 +786,7 @@ body{
     .t {
         height: 90%;
         width: 50%;
-        /* border: 1px solid red; */
+        border: 1px solid red;
     }
     
     
@@ -847,9 +847,9 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80%;
+        width: 90%;
         height: 20vw;
-        margin-top: 50vw;
+        margin-top: 70vw;
     }
     .mys {
         margin-top: 0%;
@@ -870,7 +870,7 @@ body{
     }
     
     .line {
-        margin-left: 23vw;
+        margin-left: 20vw;
         align-content: center;
         height: 0.2rem;
         width: 50%;
@@ -907,18 +907,18 @@ body{
     }
     
     .b2{
-        margin-left: 20vw;
+        margin-left: 14vw;
         margin-bottom: 20vw;
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 80vw;
     }
     
     .rect1{
-        height: 26vw;
-        width: 26vw;
-        border: .8VW solid rgb(184, 246, 250);
+        height: 50vw;
+        width: 50vw;
+        border: 1VW solid rgb(184, 246, 250);
         border-radius: 1rem;
         transform: rotate(45deg);
         position: absolute;
@@ -928,9 +928,9 @@ body{
     }
     
     .rect2{
-        height: 24vw;
-        width: 24vw;
-        border: .8vw solid rgb(184, 246, 250);
+        height: 46vw;
+        width: 46vw;
+        border: 1vw solid rgb(184, 246, 250);
         border-radius: 1rem;
         
     }
@@ -958,8 +958,8 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
-        height: 36vw;
-        width: 36vw;
+        height: 56vw;
+        width: 56vw;
     }
     
     /* Second Block */
@@ -967,9 +967,9 @@ body{
     .b3{
         position: absolute;
         margin-bottom: 25vw;
-        margin-right: 40vw;
-        width: 50vw;
-        height: 50vw;
+        margin-right: 30vw;
+        width: 90vw;
+        height: 90vw;
         display: flex;
         padding: 0;
         align-items: center;
@@ -979,8 +979,8 @@ body{
     .tl{
         position: absolute;
         flex-direction: column;
-        height: 16vw;
-        width: 18vw;
+        height: 36vw;
+        width: 38vw;
         margin-right: 14vw;
         margin-bottom: 16vw;
         border-top: .3rem solid aquamarine;
@@ -990,8 +990,8 @@ body{
     
     .mid {
         position: absolute;
-        height: 26vw;
-        width: 26vw;
+        height: 45vw;
+        width: 45vw;
         background-color: aqua;
     }
     
@@ -1002,16 +1002,16 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         position: absolute;
-        height: 27vw;
-        width: 27vw;
+        height: 46vw;
+        width: 46vw;
     }
     
     .rb{
         position: absolute;
-        height: 18vw;
-        width: 18vw;
-        margin-top: 3%;
-        margin-left: 30%;
+        height: 35vw;
+        width: 38vw;
+        margin-top: 1vw;
+        margin-left: 16vw;
         border-right:.3rem solid aquamarine ;
         border-bottom: .3rem solid aquamarine;
     
@@ -1023,7 +1023,7 @@ body{
         justify-content: center;
         padding: 0;
         height: 18vw;
-        margin-top: 35vw;
+        margin-top: 60vw;
         width: 90%;
         margin-left:0;
     
@@ -1569,7 +1569,7 @@ body{
     
     
     body{
-        background-color: rgb(16, 15, 15);
+        background-color: rgb(248, 240, 240);
     }
     
     
