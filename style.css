@@ -852,7 +852,7 @@ body{
         margin-top: 70vw;
     }
     .mys {
-        margin-top: 0%;
+        margin-top:2vw;
         text-wrap: wrap;
         text-align: center;
         margin-left: 3%;
@@ -861,34 +861,38 @@ body{
     
     h4{
         color: aliceblue;
-        font-size: clamp(0.4rem,1vw,6rem);
+        font-size: 2.5vw;
+        /* font-size: clamp(0.4rem,1vw,6rem); */
     }
     
     h2 {
         color: aqua;
-        font-size: clamp(.8rem,1.5vw,6rem);
+        font-size: 5vw;
+        /* font-size: clamp(.8rem,1.5vw,6rem); */
     }
     
     .line {
-        margin-left: 20vw;
+        margin-left: 23vw;
         align-content: center;
         height: 0.2rem;
         width: 50%;
         opacity: 0.5;
         border-radius: 100rem 100rem 100rem 100rem;
-        margin-top: .2rem;
-        margin-bottom: .2rem;
+        margin-top: .4em;
+        margin-bottom: .4rem;
         background-color: whitesmoke;
     }
     
     h5{
         color: aquamarine;
-        font-size: clamp(0.4rem,1vw,6rem);
+        font-size: 2.5vw;
+        /* font-size: clamp(0.4rem,1vw,6rem); */
     }
     
     p{
         color: aliceblue;
-        font-size: clamp(0.2rem,1vw,6rem);
+        font-size: 2.2vw;
+        /* font-size: clamp(0.2rem,1vw,6rem); */
     }
     
     .cir{
@@ -1054,9 +1058,18 @@ body{
         height: 50%;
     }
     
+    .txt h2{
+        margin-bottom: 2vw;
+        font-size: 6vw;
+    }
+
+    .txt p{
+        font-size: 2.3vw;
+    }
+    
     .re-co{
         position: absolute;
-        margin-top: 15vw;
+        margin-top: 40vw;
         margin-left: 0%;
         display: flex;
         justify-content: space-evenly;
@@ -1150,10 +1163,11 @@ body{
         text-wrap: wrap;
         margin-bottom: 60vw;
         position: absolute;
-        height: 12vw;
-        width: 60vw;
+        height: 17vw;
+        width: 80vw;
         /* background-color: rgb(255, 128, 0); */
     }
+
     .b7{
         font-weight: 900;
         margin-left: 64vw;
@@ -1311,12 +1325,14 @@ body{
     
     .card h2{
         font-size: medium;
+        margin-bottom: 1vw;
     }
 
     .card p{
-        font-size: 2vw;
+        line-height: 2vw;
+        font-size: 2.4vw;
         text-align: center;
-        margin: 0 4vw;
+        margin: 3vw 4vw;
     }
     .card:hover {
         box-shadow: 0vw 0vw 2vw aqua, 0 0 2vw aqua, 0 0 2vw aqua;
@@ -1364,7 +1380,7 @@ body{
     }
 
     .fifth{
-        height: 80vw;
+        height: 180vw;
     }
     .b16{
         width: 85%;
@@ -1384,6 +1400,7 @@ body{
     
     .reg {
         color: aqua;
+        text-align: center;
     }
     
     .container2{
@@ -1391,20 +1408,22 @@ body{
         height: 24vw;
         display: flex;
         flex-wrap: wrap;
-        gap: 1vw;
+        gap: 4vw;
     }
     
     
     /* Form Group Styling */
     .form-group {
         position: relative;
-        width: calc(90%/2);
+        width: 100%;
         margin-left: 1.2vw;
         color: aliceblue;
         display: flex;
         flex-direction: column;
-        margin-bottom: 1vw;
-        margin: .4vw;
+        align-items: center;
+        margin-bottom: 2vw;
+        margin: 1vw;
+        text-align: center;
     }
     
     /* Label Styling */
@@ -1452,18 +1471,20 @@ body{
     
     /* Button Styling */
     button {
-        height: 60%;
+        height: 6vw;
         width: 100%;
         border-radius: 2vw;
         background-color: aquamarine;
         color: aliceblue;
         border: none;
-        font-size: clamp(.2rem,1.2vw,3rem);
+        font-size: clamp(.8rem,1.2vw,3rem);
         font-weight: 700;
         cursor: pointer;
         transition: background 0.3s ease, color 0.3s ease;
         margin-top: 2vw;
     }
+
+
     
     button:hover {
         background: aliceblue;
@@ -1489,13 +1510,23 @@ body{
         height: 80%;
     }
     
+    .con h2{
+        font-size: 6vw;
+    }
+
+    .con p{
+        font-size: 3.5vw;
+    }
+
+
     .headline {
         color: aqua;
-        font-size: 1.2vw;
+        font-size: 2.3vw;
         font-weight: 700;
     }
     
     .register-btn {
+        margin-top: 4vw;
         height: 20%;
         background-color: #14A76C;
         color: white;
@@ -1512,13 +1543,13 @@ body{
     }
     
     .time {
-        margin-top: 1vw;
+        margin-top: 3vw;
         font-size: 1vw;
         color: aqua;
     }
     
     .contact-info {
-        margin-top: 1vw;
+        margin-top: 2vw;
         font-size: 1vw;
     }
     
@@ -1529,14 +1560,14 @@ body{
         margin-top: 6vw;
         margin-left: 27vw;
         height: 4vw;
-        width: 25vw;
+        width: 30vw;
     }
     
     .social-icons img {
         border: 1vw solid black;
         border-radius: 35% 35% 35% 35%;
-        height: 3vw;
-        width: 3vw;
+        height: 7vw;
+        width: 7vw;
     }
     
     .footer{
@@ -1568,9 +1599,9 @@ body{
     
     
     
-    body{
-        background-color: rgb(18, 18, 18);
-    }
+    /* body{
+        background-color: rgb(245, 241, 241);
+    } */
     
     
 }
