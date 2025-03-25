@@ -768,9 +768,9 @@ body{
         align-items: start;
     }
 
-    .border{
+    /* .border{
         border: 1px solid black;
-    }
+    } */
     
     .first {
         padding: 0.5rem;
@@ -786,7 +786,7 @@ body{
     .t {
         height: 90%;
         width: 50%;
-        border: 1px solid red;
+        /* border: 1px solid red; */
     }
     
     
@@ -1609,9 +1609,9 @@ body{
     
     
     
-    body{
+    /* body{
         background-color: rgb(245, 241, 241);
-    }
+    } */
     
     
 }
