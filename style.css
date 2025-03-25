@@ -396,7 +396,7 @@ p{
     align-content: center;
     text-align: center;
     text-wrap: wrap;
-    margin-top: 27%;
+    margin-top: 23vw;
     position: absolute;
     height: 13%;
     width: 40%;
@@ -774,7 +774,7 @@ body{
     
     .first {
         padding: 0.5rem;
-        height: 130vw;
+        height: 100vw;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -969,12 +969,12 @@ body{
     /* Second Block */
 
     .sec{
-        height: 115vw;
+        height: 130vw;
     }
     
     .b3{
         position: absolute;
-        margin-bottom: 65vw;
+        margin-bottom: 60vw;
         margin-right: 30vw;
         width: 90vw;
         height: 90vw;
@@ -1140,7 +1140,7 @@ body{
     /* third pallet */
 
     .third{
-        height: 90vw;
+        height: 80vw;
     }
     
     .design {
@@ -1171,7 +1171,7 @@ body{
         align-content: center;
         text-align: center;
         text-wrap: wrap;
-        margin-bottom: 70vw;
+        margin-bottom: 85vw;
         position: absolute;
         height: 17vw;
         width: 80vw;
@@ -1195,13 +1195,18 @@ body{
         align-content: center;
         text-align: center;
         text-wrap: wrap;
-        margin-top: 60%;
+        margin-top: 62vw;
         position: absolute;
         height: 12vw;
         width: 60vw;
         background-color: rgb(102, 142, 97);
         border-radius: 1rem;
+        padding: .5vw;
     }
+
+    /* .b8 p{
+        font-size: 2vw;
+    } */
     .b9{
         background-image: url(3.png);
         background-position: center;
@@ -1541,7 +1546,7 @@ body{
         background-color: #14A76C;
         color: white;
         border: none;
-        font-size: 1.5vw;
+        font-size: 3.5vw;
         font-weight: bold;
         border-radius: .5rem;
         cursor: pointer;
