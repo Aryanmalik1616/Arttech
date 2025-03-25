@@ -768,13 +768,13 @@ body{
         align-items: start;
     }
 
-    /* .border{
+    .border{
         border: 1px solid black;
-    } */
+    }
     
     .first {
         padding: 0.5rem;
-        height: 100vw;
+        height: 130vw;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -786,7 +786,7 @@ body{
     .t {
         height: 90%;
         width: 50%;
-        /* border: 1px solid red; */
+        border: 1px solid red;
     }
     
     
@@ -967,10 +967,14 @@ body{
     }
     
     /* Second Block */
+
+    .sec{
+        height: 115vw;
+    }
     
     .b3{
         position: absolute;
-        margin-bottom: 25vw;
+        margin-bottom: 65vw;
         margin-right: 30vw;
         width: 90vw;
         height: 90vw;
@@ -1026,8 +1030,8 @@ body{
         display: flex;
         justify-content: center;
         padding: 0;
-        height: 18vw;
-        margin-top: 60vw;
+        height: 70vw;
+        margin-top: 55vw;
         width: 90%;
         margin-left:0;
     
@@ -1055,7 +1059,7 @@ body{
         margin-top: 2%;
         text-wrap: wrap;
         width: 90%;
-        height: 50%;
+        height: 60vw;
     }
     
     .txt h2{
@@ -1069,12 +1073,12 @@ body{
     
     .re-co{
         position: absolute;
-        margin-top: 40vw;
+        margin-top: 48vw;
         margin-left: 0%;
         display: flex;
         justify-content: space-evenly;
-        height: 2vw;
-        width: 20vw;
+        height: 10vw;
+        width: 50vw;
         padding: 0.2vw;
         text-wrap: wrap;
         align-items: center;
@@ -1090,6 +1094,7 @@ body{
         transition: all .3s ease-in-out;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
     .read:hover {
@@ -1099,7 +1104,7 @@ body{
         scale: 1.2
     }
     .read i {
-        font-size: 1.2vw;
+        font-size: 3vw;
         font-weight: 400;
         font-style: normal;
         color: white;
@@ -1116,6 +1121,7 @@ body{
         transition: all .3s ease-in-out;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
     
     .contact:hover {
@@ -1125,13 +1131,17 @@ body{
     }
     
     .contact i {
-        font-size: 1.2vw;
+        font-size: 3vw;
         font-weight: 400;
         font-style: normal;
         color: white;
     }
     
     /* third pallet */
+
+    .third{
+        height: 90vw;
+    }
     
     .design {
         /* border: 1px solid green; */
@@ -1161,7 +1171,7 @@ body{
         align-content: center;
         text-align: center;
         text-wrap: wrap;
-        margin-bottom: 60vw;
+        margin-bottom: 70vw;
         position: absolute;
         height: 17vw;
         width: 80vw;
@@ -1599,9 +1609,9 @@ body{
     
     
     
-    /* body{
+    body{
         background-color: rgb(245, 241, 241);
-    } */
+    }
     
     
 }
